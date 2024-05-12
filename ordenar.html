@@ -22,14 +22,20 @@
             text-align: center;
             border-radius: 1rem;
             padding: 10px;
-	    position: absolute;
-	    left: 40%;
+            
         p {
 			color: white;
 			display: inline-block;
 			padding: 0.5rem;
 			border-radius: 2rem;
 			background-color: black;
+		}
+		
+		textarea {
+			font-size: 85px;
+		}
+	    input {
+			font-size: 73px;
 		}
     </style>
 </head>
@@ -39,7 +45,7 @@
 		<div class="section">
 			<p>ORDER</p><br>
 			<input type="text" id="mesa" placeholder="Tu mesa"><br>
-			<textarea id="pedido" placeholder="Elije que pedir"></textarea><br>
+			<textarea id="pedido" placeholder="Elije que pedir" rows="5"></textarea><br>
 			<br>
 			<button onClick="send()">Enviar</button>
 			<script src="script.js">Enviar</script>
