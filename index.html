@@ -21,6 +21,17 @@
             padding: 10px;
             padding-bottom: 90px;
         }
+        .section_p {
+            flex-basis: 30%;
+            background-color: rgb(55, 48, 47);
+            text-align: center;
+            padding: 10px;
+            padding-bottom: 90px;
+            background-color: black;
+            padding: 5px;
+            margin: 0;
+            border-radius: 1rem;
+        }
         img {
             width: 100%;
             max-width: 140px;
@@ -31,8 +42,7 @@
         }
         p {
             color: white;
-            background-color: black;
-            border-radius: 0.5rem;
+            #background-color: black;
             padding: 5px;
             margin: 0;
         }
@@ -43,7 +53,7 @@
 			font-size: x-small;
         }
         #title {
-            background-color: rgb(0,12,15);		
+            background-color: rgb(0,22,25);		
             margin-bottom: 0.4rem;	
 		}
     </style>
@@ -51,36 +61,72 @@
 <body>
     <div class="container">
         <div class="section" >
-            <p id="title">DRINKS</p>
-            <p>|Coffee| $2</p>
+            <p style="border-radius: 0.5rem;" id="title">DRINKS</p>
+            <div class="section_p" >
+				<p>|Coffee|</p>
+				<p>$12</p>
+            </div>
             <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG" class="cafe">
-            <p>|Soda| $1</p>
+            <div class="section_p" >
+				<p>|Soda|</p>
+				<p>$1</p>
+			</div>
             <img src="https://http2.mlstatic.com/D_NQ_NP_976032-MLA48966824693_012022-O.webp" class="cafe">
-            <p>|Water| $1</p>
+            <div class="section_p" >
+				<p>|Water|</p>
+				<p>$1</p>
+			</div>
             <img src="https://img.freepik.com/vector-gratis/vaso-agua-aislado_1368-2666.jpg?w=740&amp;t=st=1714839188~exp=1714839788~hmac=700c2f922b538a892e219b379b03bcc6042f02ac21f9ef84f3f85d2c698ad705" class="cafe">
-            <p>|Juice| $1</p>
+            <div class="section_p" >
+				<p>|Juice|</p>
+				<p>|$1</p>
+			</div>	
             <img src="https://healthmylifestyle.com/wp-content/uploads/2023/01/Fresh-squeezed-orange-juice.jpg" class="juice" style="height: 10rem;">
         </div>
         <div class="section">
-            <p id="title">FOODS</p>
-            <p>|Crossaint| $2</p>
+            <p style="border-radius: 0.5rem;" id="title">FOODS</p>
+            <div class="section_p" >
+				<p>|Crossaint| $2</p>
+				<p>|$1</p>
+            </div>	
             <img src="https://www.emiliodeik.cl/wp-content/uploads/2011/08/medialunas.jpg" class="cafe">
-            <p>|Cookies| $1</p>
+            <div class="section_p" >
+				<p>|Cookies| $1</p>
+				<p>|$1</p>
+            </div>	
             <img src="https://imag.bonviveur.com/cookies-caseras-foto-principal.webp" class="cafe">
-            <p>|Donuts| $1</p>
+            <div class="section_p" >
+				<p>|Donuts| $1</p>
+				<p>|$1</p>
+            </div>	
             <img src="https://t2.uc.ltmcdn.com/es/posts/1/0/7/como_hacer_donuts_de_chocolate_31701_600.webp" class="cafe">
-            <p>|Pancakes| $1</p>
+            <div class="section_p" >
+				<p>|Pancakes| $1</p>
+				<p>|$1</p>
+            </div>	
             <img src="https://assets.tmecosys.com/image/upload/t_web667x528/img/recipe/ras/Assets/c3235163-5697-4911-84e9-633c78c9a35b/Derivates/c15df8ba-50ba-4d77-8292-bac5014b9cb0.jpg" style="height: 10rem;">
         </div>
         <div class="section">
-            <p id="title">ESPECIAL</p>
-            <p>|Flan| $2</p>
+            <p style="border-radius: 0.5rem;" id="title">DESERT</p>
+            <div class="section_p" >
+				<p>|Flan| $2</p>
+				<p>|$1</p>
+            </div>
             <img src="https://content-cocina.lecturas.com/medio/2021/07/29/paso-a-paso-para-realizar-flan-de-yema-al-azahar-resultado-final_dc382041_900x900.jpg" class="cafe" style="height: 9rem;">
-            <p>|Cake| $1</p>
+            <div class="section_p" >
+				<p>|Cake| $1</p>
+				<p>|$1</p>
+            </div>
             <img src="https://i.pinimg.com/736x/df/ed/17/dfed1763b8e2da8294af769366391345.jpg" class="cafe">
-            <p>|Pie| $1</p>
+            <div class="section_p" >
+				<p>|Pie| $1</p>
+				<p>|$1</p>
+            </div>
             <img src="https://api.time.com/wp-content/uploads/2015/07/360_pie_1125.jpg?quality=85&amp;w=1440" class="cafe">
-            <p>|Lemon Pie| $1</p>
+            <div class="section_p" >
+				<p>|Lemon Pie| $1</p>
+				<p>|$1</p>
+            </div>
             <img src="https://saborargento.com.ar/wp-content/uploads/2023/06/Receta-de-Lemon-Pie.webp" style="height: 10rem;">
         </div>
     </div>
