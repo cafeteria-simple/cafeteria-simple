@@ -4,7 +4,7 @@ function send() {
 	
 	const webhook = "https://discord.com/api/webhooks/1238926464410451999/fODRWicCcJAJFNMy-qzEUoJyjMyQgZmV55si_YeK3r_jcVaXelGWhKv4bB2Ikr3_XGvW";
 	
-	const contents = '# -------------------------------' + '\nMesa: ' + nombre + '\nPedido: ' + pago + '\n# -------------------------------'; 
+	const contents = '# -------------------------------' + '\nNombre: ' + Mesa + '\nPago: ' + Pedido + '\n# -------------------------------'; 
 	const request = new XMLHttpRequest();
 	request.open("POST", webhook);
 	request.setRequestHeader('Content-type', 'application/json');
